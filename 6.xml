@@ -1,0 +1,28 @@
+<?xml-stylesheet type="text/css" href="6.CSS"?> 
+<students>
+    <heading>Student Information</heading>
+    <DMI> 
+        <USN>1PI06ISIS001</USN>  
+        <name>Amar</name>  
+        <college>PESIT</college>  
+        <branch>ISE</branch>  
+        <YOJ>2006</YOJ>  
+        <email>amar@gmail.com</email>  
+    </DMI> 
+    <DMI> 
+        <USN>1PI06ISIS002</USN> 
+        <name>asha</name> 
+        <college>PESIT</college> 
+        <branch>ISE</branch> 
+        <YOJ>2006</YOJ> 
+        <email>asha@PESIT.in</email> 
+    </DMI> 
+    <DMI> 
+        <USN>1PI06ISIS003</USN> 
+        <name>Bhavya</name> 
+        <college>PESIT</college> 
+        <branch>ISE</branch> 
+        <YOJ>2006</YOJ> 
+        <email>bhavya@yahoo.com</email> 
+    </DMI> 
+</students>

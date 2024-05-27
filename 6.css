@@ -1,0 +1,53 @@
+students {
+    display: block;
+    font-family: Arial, sans-serif;
+}
+
+heading {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4CAF50;
+}
+
+VTU {
+    display: block;
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+VTU USN {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+VTU name, VTU college, VTU branch, VTU YOJ, VTU email {
+    display: block;
+    margin-bottom: 5px;
+}
+
+VTU name {
+    color: #1a73e8;
+}
+
+VTU college {
+    color: #d93025;
+}
+
+VTU branch {
+    color: #34a853;
+}
+
+VTU YOJ {
+    color: #fbbc05;
+}
+
+VTU email {
+    color: #ea4335;
+}

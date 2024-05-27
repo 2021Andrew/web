@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Program 3a</title>
+    <script type="text/javascript">
+        //<![CDATA[
+        function vowel() {
+            var n = prompt("Enter a string: ", "");
+            var flag = 0;
+            for (var i = 0; i < n.length && flag !== 1; i++) {
+                switch (n[i].toLowerCase()) {
+                    case 'a':
+                    case 'e':
+                    case 'i':
+                    case 'o':
+                    case 'u':
+                        alert("The leftmost vowel is present in the position: " + (i + 1));
+                        flag = 1;
+                        break;
+                    default:
+                        break;
+                }
+            }
+            if (flag === 0) {
+                alert("No vowels found.");
+            }
+        }
+        //]]>
+    </script>
+</head>
+<body onload="vowel()">
+</body>
+</html>

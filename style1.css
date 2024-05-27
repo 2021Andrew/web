@@ -1,0 +1,22 @@
+
+h1 {
+    font-size: 36pt;
+}
+h2 {
+    color: blue;
+}
+p {
+    margin-left: 50px;
+}
+table {
+    border: 4px solid black;
+    width: 50%; /* Changed to 50% for better display */
+    border-collapse: collapse; /* To make borders look better */
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px; /* Added padding for better readability */
+}
+th {
+    width: 204px; /* Removed redundant width settings in <td> */
+}
