@@ -12,7 +12,7 @@ heading {
     color: #4CAF50;
 }
 
-VTU {
+DMI {
     display: block;
     border: 1px solid #000;
     margin: 10px;
@@ -20,34 +20,34 @@ VTU {
     background-color: #f9f9f9;
 }
 
-VTU USN {
+DMI USN {
     display: block;
     font-weight: bold;
     color: #333;
     margin-bottom: 5px;
 }
 
-VTU name, VTU college, VTU branch, VTU YOJ, VTU email {
+DMI name, VTU college, VTU branch, VTU YOJ, VTU email {
     display: block;
     margin-bottom: 5px;
 }
 
-VTU name {
+DMI name {
     color: #1a73e8;
 }
 
-VTU college {
+DMI college {
     color: #d93025;
 }
 
-VTU branch {
+DMI branch {
     color: #34a853;
 }
 
-VTU YOJ {
+DMI YOJ {
     color: #fbbc05;
 }
 
-VTU email {
+DMI email {
     color: #ea4335;
 }
